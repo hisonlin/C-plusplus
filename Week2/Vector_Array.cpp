@@ -3,16 +3,10 @@
 #include <vector>
 
 using namespace std;
-//a utility function to print a vector:
-void printVector(vector<int> vec)
-{
-	for (auto item : vec)
-	{
-		cout << item << " ";
 
-	}
-	cout << "\n";
-}
+//declaring a function
+void printVector(vector<int> vec);
+
 int main()
 {
 	/*	int count{};  // initializes count to default value for int
@@ -93,6 +87,17 @@ int main()
 	array <string,5> testArr{"str1","str2","str3","str4","str5"};
     for (auto& item : testArr)	
 		cout << item << endl;
+
+	//a utility function to print a vector:
+	void printVector(vector<int> vec)
+	{
+		for (auto item : vec)
+		{
+			cout << item << " ";
+
+		}
+		cout << "\n";
+	}
 	
 	return 0;
 }
