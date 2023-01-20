@@ -24,6 +24,7 @@
     <ProjectGuid>{59c86b2a-aee0-41e4-98a8-1781f673b6c7}</ProjectGuid>
     <RootNamespace>AccountInterest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Balance</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

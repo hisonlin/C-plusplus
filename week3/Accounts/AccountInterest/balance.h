@@ -1,9 +1,13 @@
 #pragma once
 #include <cmath>
 #include <string>
+#include <iostream>
 
+
+//long long is integer with 8 byte
 typedef long long int64_t;
 
+//a class has special methods: constructor, destructor, copy constructor, assignment operator
 class DollarAmount {
 
 public:
@@ -12,10 +16,49 @@ public:
 	{
 		amount = value;
 	}
+	//same here
+	//DollarAmount(int64_t value) : amount(value)
+/*
+	//default constructor
+	DollarAmount()
+	{
+		amount = 0;
+	}
+	*/
+	//same here
+	//DollarAmount() : amount(0)
+	/*
+	//copy constructor
+	DollarAmount(const DollarAmount& src) : amount(src.amount)
+	{
+		//std::cout << "\nCopy constructor called\n";
+	}
 
-	void add(DollarAmount val)
+	//assignment operator:
+	DollarAmount& operator = (const DollarAmount& src)
+	{
+		//std::cout << "\nAssignment operator called\n";
+		amount = src.amount;
+		return *this;
+	}
+	*/
+	//if we do not use & , we just use the value of the parameter
+	void add(const DollarAmount& val)
 	{
 		amount += val.amount;
+		//val.amount = 0;
+	}
+
+	void add(unsigned int dollar, unsigned int cents)
+	{
+		amount = amount + int64_t(dollar) * 100 + cents;
+	}
+
+	//if using & (reference), the parameter will be modified
+	void addr(DollarAmount& val)
+	{
+		amount += val.amount;
+		//val.amount = 0;
 	}
 
 	void subtract(DollarAmount val)

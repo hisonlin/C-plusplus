@@ -13,11 +13,22 @@ int main()
 
 	//add d2 to d1 and print d1's value using toString
 	d1.add(d2);
-	cout << d1.toString() << endl;
+	cout <<"add " << d2.toString() << endl;
+
+	//d1.addr(d2);
+	cout << "addr " << d2.toString() << endl;
+
+	//copy constructor
+	DollarAmount d5(d1);
+	cout << "\nd5 is " << d5.toString() << endl;
+
+	//assignment operator
+	d1 = d5;
+	cout << "\nd1 is " << d1.toString() << endl;
 
 	//subtract d2 from d1 and print d1's value.
 	d1.subtract(d2);
-	cout << d2.toString() << endl;
+	cout << d1.toString() << endl;
 
 	//testing to add 2.34% interest
 	DollarAmount d3(1000000);
