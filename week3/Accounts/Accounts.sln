@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Balance", "AccountInterest\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Account", "Account\Account.vcxproj", "{F927BCCE-DF78-41EA-BEEA-5BB0114635AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringProcessing", "..\..\week4\StringProcessing\StringProcessing.vcxproj", "{71334428-4F61-4279-AFF4-752B7D4EDC7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F927BCCE-DF78-41EA-BEEA-5BB0114635AB}.Release|x64.Build.0 = Release|x64
 		{F927BCCE-DF78-41EA-BEEA-5BB0114635AB}.Release|x86.ActiveCfg = Release|Win32
 		{F927BCCE-DF78-41EA-BEEA-5BB0114635AB}.Release|x86.Build.0 = Release|Win32
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Debug|x64.ActiveCfg = Debug|x64
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Debug|x64.Build.0 = Debug|x64
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Debug|x86.Build.0 = Debug|Win32
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Release|x64.ActiveCfg = Release|x64
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Release|x64.Build.0 = Release|x64
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Release|x86.ActiveCfg = Release|Win32
+		{71334428-4F61-4279-AFF4-752B7D4EDC7D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

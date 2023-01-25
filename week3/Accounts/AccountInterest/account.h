@@ -58,7 +58,7 @@ public:
 		balance.add(depo);
 		return balance;
 	}
-
+	//overload deposit
 	DollarAmount deposit(unsigned int dollar, unsigned int cents)
 	{
 		balance.add(dollar, cents);

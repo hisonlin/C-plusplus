@@ -1,0 +1,3 @@
+﻿  stringProcessing.cpp
+D:\Users\C++_hison\C-plusplus\week4\StringProcessing\stringProcessing.cpp(58,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  StringProcessing.vcxproj -> D:\Users\C++_hison\C-plusplus\week3\Accounts\x64\Debug\StringProcessing.exe
