@@ -1,0 +1,4 @@
+﻿  diceRolling.cpp
+D:\Users\C++_hison\C-plusplus\week5\RandomNumberGames\DiceRolling\diceRolling.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+D:\Users\C++_hison\C-plusplus\week5\RandomNumberGames\x64\Release\DiceRolling.exe : fatal error LNK1120: 1 unresolved externals

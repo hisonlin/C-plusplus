@@ -1,3 +1,4 @@
 ﻿  misc.cpp
-D:\Users\C++_hison\C-plusplus\week4\Misc\misc.cpp(8,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Misc.vcxproj -> D:\Users\C++_hison\C-plusplus\week4\Misc\x64\Debug\Misc.exe
+D:\Users\C++_hison\C-plusplus\week4\Misc\misc.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Users\C++_hison\C-plusplus\week4\Misc\x64\Debug\Misc.exe : fatal error LNK1120: 1 unresolved externals
