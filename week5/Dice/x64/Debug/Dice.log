@@ -1,0 +1,3 @@
+﻿  dice.cpp
+D:\Users\C++_hison\C-plusplus\week5\Dice\dice.cpp(31,36): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Dice.vcxproj -> D:\Users\C++_hison\C-plusplus\week5\Dice\x64\Debug\Dice.exe

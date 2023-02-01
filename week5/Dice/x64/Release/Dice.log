@@ -1,0 +1,7 @@
+﻿  dice.cpp
+D:\Users\C++_hison\C-plusplus\week5\Dice\dice.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 106 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Dice.vcxproj -> D:\Users\C++_hison\C-plusplus\week5\Dice\x64\Release\Dice.exe

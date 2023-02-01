@@ -1,0 +1,3 @@
+﻿  craps.cpp
+D:\Users\C++_hison\C-plusplus\week5\gameOfCraps\craps.cpp(11,37): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+LINK : fatal error LNK1168: cannot open D:\Users\C++_hison\C-plusplus\week5\gameOfCraps\x64\Debug\gameOfCraps.exe for writing
