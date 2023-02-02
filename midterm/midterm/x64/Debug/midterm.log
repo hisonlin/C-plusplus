@@ -1,0 +1,3 @@
+﻿  midterm.cpp
+D:\Users\C++_hison\C-plusplus\midterm\midterm\midterm.cpp(20,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  midterm.vcxproj -> D:\Users\C++_hison\C-plusplus\midterm\midterm\x64\Debug\midterm.exe
