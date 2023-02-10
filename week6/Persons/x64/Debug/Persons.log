@@ -1,0 +1,6 @@
+﻿  person.cpp
+  testingPerson.cpp
+D:\Users\C++_hison\C-plusplus\week6\Persons\soccerPlayer.h(38,3): error C2249: 'Person::first': no accessible path to private member declared in virtual base 'Person'
+D:\Users\C++_hison\C-plusplus\week6\Persons\person.h(9,14): message : see declaration of 'Person::first'
+D:\Users\C++_hison\C-plusplus\week6\Persons\person.h(5,7): message : see declaration of 'Person'
+  Generating Code...
