@@ -24,12 +24,17 @@ public:
 		pAuthor = author;
 	}
 
+	std::string getTitle()
+	{
+		return title;
+	}
+
 };
 
 class Author
 {
 	std::string name;
-	std::shared_ptr<Book> pBook;
+	std::weak_ptr<Book> pBook;
 
 public:
 	Author(std::string authorName) :name(authorName) { std::cout << "Author created: " << name << std::endl; }
@@ -37,12 +42,19 @@ public:
 	~Author()
 	{
 		std::cout << "~Author: " << name << std::endl;
-		pBook = nullptr;
+		
 		
 	}
 
 	void setBook(std::shared_ptr<Book> book)
 	{
 		pBook = book;
+	}
+
+	void printBookTitle()
+	{
+		std::shared_ptr<Book> bookPtr = pBook.lock();
+		if(bookPtr){ std::cout << bookPtr->getTitle() << std::endl; }
+		
 	}
 };

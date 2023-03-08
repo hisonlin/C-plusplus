@@ -14,5 +14,6 @@ int main()
 	//print out reference count
 	cout << authorPtr.use_count() << endl;
 	cout << cplusplusBookPtr.use_count() << endl;
+	authorPtr->printBookTitle();
 	return 0;
 }
